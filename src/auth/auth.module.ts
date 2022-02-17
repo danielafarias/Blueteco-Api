@@ -7,7 +7,6 @@ import { AuthController } from './auth.controller';
 
 import { PrismaService } from 'src/prisma.service';
 
-import { jwtConstants } from './jwt.constants';
 import { JwtStrategy } from './jwt.strategy';
 import { RolesGuard } from './guards/roles.guard';
 
@@ -15,7 +14,7 @@ import { RolesGuard } from './guards/roles.guard';
   imports: [
     PassportModule.register({ defaultStrategy: 'jwt' }),
     JwtModule.register({
-      secret: jwtConstants.secret,
+      secret: process.env.JWT_SECRET,
       signOptions: { expiresIn: '5h' },
     }),
   ],

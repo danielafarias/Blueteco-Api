@@ -7,7 +7,7 @@
 ![GitHub Last Commit](https://img.shields.io/github/last-commit/danielafarias/Blueteco?style=for-the-badge)
 ![Github Watchers](https://img.shields.io/github/watchers/danielafarias/Blueteco?style=for-the-badge)
 
-![blueteco](./client/src/assets/img/logo.svg)
+![blueteco](https://github.com/danielafarias/Blueteco/raw/main/src/assets/img/logo.svg)
 
 
 > Blueteco é uma aplicação de gerenciamento de um boteco. Server side feito com NestJS e Typescript e Client side feito com React.
